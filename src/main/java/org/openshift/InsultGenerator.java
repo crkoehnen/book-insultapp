@@ -1,6 +1,9 @@
 package org.openshift;
 
-import java.util.Random;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
 public class InsultGenerator {
 	public String generateInsult() {
